@@ -38,7 +38,7 @@ int main(int argc, char **argv) {
 
    if(guess == number){
    printf("\nCongratulations, you found it!  Number of guesses: %d\n", number);
-
+   break;
    } 
    else{
     printf("\nIncorrect number! Try again");
