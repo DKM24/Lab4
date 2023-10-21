@@ -48,12 +48,17 @@ int main(int argc, char **argv) {
   
   
   
-  int k = 3;
+ /* int k = 3;
   while(k > -4) {
     printf("%d ", k);
     k--;
+  }*/
+
+  for(int k=3;k>-4;k--){
+    printf("%d  ", k);
   }
-  printf("\n");
+
+  printf("\n\n");
 
   //3. Print numbers 1 thru n separated by a comma except for
   //   the last one; example: 1, 2, 3, 4, 5
