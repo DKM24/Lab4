@@ -85,6 +85,16 @@ printf("%d", z*z);
   //5. Compute the summation of numbers 1 thru n and print
   //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
 
+int sum=0;
+
+for(z=1;z<=n;z){
+ 
+ sum=sum + z;
+
+}
+
+printf("\n\n");
+ 
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
 
