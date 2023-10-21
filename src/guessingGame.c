@@ -34,13 +34,15 @@ int main(int argc, char **argv) {
   while(1){
 
    scanf("%d",&guess);
-   printf("Enter a number between 1 and %d\n", n);
+   printf("\n\nEnter a number between 1 and %d\n", n);
 
    if(guess == number){
    printf("\nCongratulations, you found it!  Number of guesses: %d\n", number);
 
    } 
-   
+   else{
+    printf("\nIncorrect number! Try again");
+   }
 
 
 
