@@ -24,13 +24,18 @@ int main(int argc, char **argv) {
   int number = (rand() % n) + 1;
 
   // initialize the user's "guess" to be an invalid value
-  int guess = -10;
-  int numGuesses = 0;
+  int guess;
 
   printf("Guess-A-Number Game!\n");
   printf("Enter a number between 1 and %d\n", n);
 
   //TODO: place your code here
+  
+  while(1){
+    
+  }
+  
+
 
   printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
   return 0;
