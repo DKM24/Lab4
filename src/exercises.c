@@ -129,12 +129,41 @@ for(z=1;z<=n;z++){
  printf("Sum of even numbers is %d", sum3);
 
  printf("\n\n");
+
+
   //8. Write a solution to the following variation of the FizzBuzz
   //   problem.  Print out integers 1 thru n, one to a line, except
   //   that if the integer is divisible by 7 print "Foo" instead.
   //   If the integer is divisible by 11 print "Bar" instead.  If
   //   the integer is divisible by both 7 and 11, print "FooBar"
   //   instead.
+
+for(z=1;z<=n;z++){
+
+if((z%7==0) && (z%11==8){
+  printf("Foobar\n");
+} 
+
+)
+ else if(z%7==0){
+
+printf("Foor\n");
+
+
+ }
+  
+ else if (z%11==0){
+  printf("Bar\n");
+ }
+
+else{
+  printf("%d\n", z);
+}
+}
+
+
+
+
 
   return 0;
 }
