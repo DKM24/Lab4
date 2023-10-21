@@ -76,7 +76,7 @@ int main(int argc, char **argv) {
 
     for(z=1;z<=n;z){
 
-printf("%d", z*z);
+printf("%d  ", z*z);
 
 
     }
