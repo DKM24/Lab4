@@ -27,9 +27,10 @@ int main(int argc, char **argv) {
 
     for(int j=1;j<=n;j++){
 
-      prinf("%d     ")
+      printf("%d     ",i*j);
     } 
 
+   printf("\n\n");
 
 
   }
