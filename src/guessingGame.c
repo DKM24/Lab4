@@ -27,16 +27,29 @@ int main(int argc, char **argv) {
   int guess;
 
   printf("Guess-A-Number Game!\n");
-  printf("Enter a number between 1 and %d\n", n);
+  
 
   //TODO: place your code here
   
   while(1){
-    
+
+   scanf("%d",&guess);
+   printf("Enter a number between 1 and %d\n", n);
+
+   if(guess == number){
+   printf("\nCongratulations, you found it!  Number of guesses: %d\n", number);
+
+   } 
+   
+
+
+
+
+
   }
   
 
 
-  printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
+  
   return 0;
 }
