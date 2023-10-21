@@ -58,13 +58,13 @@ int main(int argc, char **argv) {
     printf("%d  ", k);
   }
 
-  printf("\n\n");
+  printf("\n");
 
   //3. Print numbers 1 thru n separated by a comma except for
   //   the last one; example: 1, 2, 3, 4, 5
 
   int z;
-  for(z=1;z<=n;z){
+  for(z=1;z<=n;z++){
   
   printf("%d, ", z);
   }
@@ -74,7 +74,7 @@ int main(int argc, char **argv) {
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
 
-    for(z=1;z<=n;z){
+    for(z=1;z<n;z){
 
 printf("%d  ", z*z);
 
@@ -87,13 +87,13 @@ printf("%d  ", z*z);
 
 int sum=0;
 
-for(z=1;z<=n;z){
+for(z=1;z<=n;z++){
  
  sum=sum + z;
 
 }
 
-printf("\n\n");
+printf("Sum of numbers is %d", sum);
  
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
@@ -140,14 +140,14 @@ for(z=1;z<=n;z++){
 
 for(z=1;z<=n;z++){
 
-if((z%7==0) && (z%11==8){
+if((z%7==0) && (z%11==8)){
   printf("Foobar\n");
 } 
 
-)
+
  else if(z%7==0){
 
-printf("Foor\n");
+printf("Foo\n");
 
 
  }
@@ -159,9 +159,9 @@ printf("Foor\n");
 else{
   printf("%d\n", z);
 }
+
+
 }
-
-
 
 
 
