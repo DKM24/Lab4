@@ -74,7 +74,7 @@ int main(int argc, char **argv) {
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
 
-    for(z=1;z<n;z++){
+    for(z=1;z<=n;z++){
 
 printf("%d  ", z*z);
 
